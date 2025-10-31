@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		72B627B82EB4BE0800DF7102 /* CocoWarsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B627B62EB4BE0800DF7102 /* CocoWarsApp.swift */; };
+		72B627B92EB4BE0800DF7102 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72B627B52EB4BE0800DF7102 /* Assets.xcassets */; };
+		72B627C42EB4BE2900DF7102 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B627BB2EB4BE2900DF7102 /* View+Extensions.swift */; };
+		72B627C52EB4BE2900DF7102 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B627BC2EB4BE2900DF7102 /* Color+Extensions.swift */; };
+		72B627C62EB4BE2900DF7102 /* CWLaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B627C12EB4BE2900DF7102 /* CWLaunchView.swift */; };
+		72B627C72EB4BE2900DF7102 /* CWHomeWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B627BF2EB4BE2900DF7102 /* CWHomeWebView.swift */; };
+		72B627C82EB4BE2900DF7102 /* ShapeStyle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B627BD2EB4BE2900DF7102 /* ShapeStyle+Extensions.swift */; };
+		D52240A15FD8A9AE86C446D1 /* Pods_CocoWars.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A5B297327B826A20A0C32FF /* Pods_CocoWars.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5BA1914CC3E2D390E90BA3B8 /* Pods-CocoWars.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocoWars.release.xcconfig"; path = "Target Support Files/Pods-CocoWars/Pods-CocoWars.release.xcconfig"; sourceTree = "<group>"; };
+		6A5B297327B826A20A0C32FF /* Pods_CocoWars.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CocoWars.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		72B627A62EB4BDF500DF7102 /* CocoWars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoWars.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72B627B52EB4BE0800DF7102 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		72B627B62EB4BE0800DF7102 /* CocoWarsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoWarsApp.swift; sourceTree = "<group>"; };
+		72B627BB2EB4BE2900DF7102 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		72B627BC2EB4BE2900DF7102 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		72B627BD2EB4BE2900DF7102 /* ShapeStyle+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ShapeStyle+Extensions.swift"; sourceTree = "<group>"; };
+		72B627BF2EB4BE2900DF7102 /* CWHomeWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CWHomeWebView.swift; sourceTree = "<group>"; };
+		72B627C12EB4BE2900DF7102 /* CWLaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CWLaunchView.swift; sourceTree = "<group>"; };
+		72B627C92EB4BF7600DF7102 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DEDF085F744889BA95716261 /* Pods-CocoWars.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocoWars.debug.xcconfig"; path = "Target Support Files/Pods-CocoWars/Pods-CocoWars.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72B627A32EB4BDF500DF7102 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D52240A15FD8A9AE86C446D1 /* Pods_CocoWars.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33E1B2068DA59ADE61C933A4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DEDF085F744889BA95716261 /* Pods-CocoWars.debug.xcconfig */,
+				5BA1914CC3E2D390E90BA3B8 /* Pods-CocoWars.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5933680618DCF2BD754DA290 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A5B297327B826A20A0C32FF /* Pods_CocoWars.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		72B6279D2EB4BDF500DF7102 = {
+			isa = PBXGroup;
+			children = (
+				72B627B72EB4BE0800DF7102 /* CocoWars */,
+				72B627A72EB4BDF500DF7102 /* Products */,
+				33E1B2068DA59ADE61C933A4 /* Pods */,
+				5933680618DCF2BD754DA290 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		72B627A72EB4BDF500DF7102 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72B627A62EB4BDF500DF7102 /* CocoWars.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72B627B72EB4BE0800DF7102 /* CocoWars */ = {
+			isa = PBXGroup;
+			children = (
+				72B627C92EB4BF7600DF7102 /* Info.plist */,
+				72B627BE2EB4BE2900DF7102 /* Extensions */,
+				72B627C32EB4BE2900DF7102 /* Screens */,
+				72B627BA2EB4BE0A00DF7102 /* App */,
+				72B627B52EB4BE0800DF7102 /* Assets.xcassets */,
+			);
+			path = CocoWars;
+			sourceTree = "<group>";
+		};
+		72B627BA2EB4BE0A00DF7102 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				72B627B62EB4BE0800DF7102 /* CocoWarsApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		72B627BE2EB4BE2900DF7102 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				72B627BB2EB4BE2900DF7102 /* View+Extensions.swift */,
+				72B627BC2EB4BE2900DF7102 /* Color+Extensions.swift */,
+				72B627BD2EB4BE2900DF7102 /* ShapeStyle+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		72B627C02EB4BE2900DF7102 /* HomeWebScreen */ = {
+			isa = PBXGroup;
+			children = (
+				72B627BF2EB4BE2900DF7102 /* CWHomeWebView.swift */,
+			);
+			path = HomeWebScreen;
+			sourceTree = "<group>";
+		};
+		72B627C22EB4BE2900DF7102 /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				72B627C12EB4BE2900DF7102 /* CWLaunchView.swift */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		72B627C32EB4BE2900DF7102 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				72B627C02EB4BE2900DF7102 /* HomeWebScreen */,
+				72B627C22EB4BE2900DF7102 /* LaunchScreen */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72B627A52EB4BDF500DF7102 /* CocoWars */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72B627B22EB4BDF700DF7102 /* Build configuration list for PBXNativeTarget "CocoWars" */;
+			buildPhases = (
+				2B38CAB0B3359F512BFD5DA6 /* [CP] Check Pods Manifest.lock */,
+				72B627A22EB4BDF500DF7102 /* Sources */,
+				72B627A32EB4BDF500DF7102 /* Frameworks */,
+				72B627A42EB4BDF500DF7102 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocoWars;
+			productName = CocoWars;
+			productReference = 72B627A62EB4BDF500DF7102 /* CocoWars.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72B6279E2EB4BDF500DF7102 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					72B627A52EB4BDF500DF7102 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+				};
+			};
+			buildConfigurationList = 72B627A12EB4BDF500DF7102 /* Build configuration list for PBXProject "CocoWars" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 72B6279D2EB4BDF500DF7102;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 55;
+			productRefGroup = 72B627A72EB4BDF500DF7102 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72B627A52EB4BDF500DF7102 /* CocoWars */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72B627A42EB4BDF500DF7102 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72B627B92EB4BE0800DF7102 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B38CAB0B3359F512BFD5DA6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CocoWars-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72B627A22EB4BDF500DF7102 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72B627B82EB4BE0800DF7102 /* CocoWarsApp.swift in Sources */,
+				72B627C42EB4BE2900DF7102 /* View+Extensions.swift in Sources */,
+				72B627C52EB4BE2900DF7102 /* Color+Extensions.swift in Sources */,
+				72B627C62EB4BE2900DF7102 /* CWLaunchView.swift in Sources */,
+				72B627C72EB4BE2900DF7102 /* CWHomeWebView.swift in Sources */,
+				72B627C82EB4BE2900DF7102 /* ShapeStyle+Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		72B627B02EB4BDF700DF7102 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 99Y7AUQG6Y;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		72B627B12EB4BDF700DF7102 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 99Y7AUQG6Y;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		72B627B32EB4BDF700DF7102 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEDF085F744889BA95716261 /* Pods-CocoWars.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99Y7AUQG6Y;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CocoWars/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Coco Wars";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cocowars.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				XROS_DEPLOYMENT_TARGET = 2.4;
+			};
+			name = Debug;
+		};
+		72B627B42EB4BDF700DF7102 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BA1914CC3E2D390E90BA3B8 /* Pods-CocoWars.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99Y7AUQG6Y;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CocoWars/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Coco Wars";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cocowars.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				XROS_DEPLOYMENT_TARGET = 2.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72B627A12EB4BDF500DF7102 /* Build configuration list for PBXProject "CocoWars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72B627B02EB4BDF700DF7102 /* Debug */,
+				72B627B12EB4BDF700DF7102 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72B627B22EB4BDF700DF7102 /* Build configuration list for PBXNativeTarget "CocoWars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72B627B32EB4BDF700DF7102 /* Debug */,
+				72B627B42EB4BDF700DF7102 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 72B6279E2EB4BDF500DF7102 /* Project object */;
+}
